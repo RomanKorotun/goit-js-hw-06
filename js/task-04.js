@@ -6,13 +6,13 @@ const elements = {
 
 elements.incrementButton.addEventListener('click', handlerIncrementButton);
 let counterValue = 0;
-function handlerIncrementButton(evt) {
+function handlerIncrementButton() {
   counterValue += 1;
   elements.value.textContent = counterValue;
 }
 
 elements.decrementButton.addEventListener('click', handlerDecrementButton);
-function handlerDecrementButton(evt) {
+function handlerDecrementButton() {
   counterValue -= 1;
   elements.value.textContent = counterValue;
 }
