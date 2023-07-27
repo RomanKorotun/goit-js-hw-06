@@ -19,7 +19,7 @@
 
 // 1.1)
 
-const items = document.querySelectorAll('.js-item');
+const items = document.querySelectorAll('.item');
 const quantityItems = items.length;
 const resultQuantityItems = `Number of categories: ${quantityItems}`;
 console.log(resultQuantityItems);
