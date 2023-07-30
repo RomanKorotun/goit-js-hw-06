@@ -25,6 +25,7 @@ function createBoxes(amount) {
     }px; height: ${30 + i * 10}px;"></div>`;
   }
   elements.boxesContainer.insertAdjacentHTML('beforeend', markup);
+  elements.input.value = '';
 }
 
 elements.buttonDestroy.addEventListener('click', handlerClickDestroy);
