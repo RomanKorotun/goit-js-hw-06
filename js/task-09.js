@@ -13,6 +13,7 @@ const elements = {
 elements.btn.addEventListener('click', handlerClick);
 
 function handlerClick() {
-  elements.body.style.backgroundColor = getRandomHexColor();
-  elements.span.textContent = getRandomHexColor();
+  const randomColor = getRandomHexColor();
+  elements.body.style.backgroundColor = randomColor;
+  elements.span.textContent = randomColor;
 }
