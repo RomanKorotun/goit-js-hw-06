@@ -8,9 +8,11 @@ function handlerSubmit(evt) {
   const { email, password } = evt.currentTarget.elements;
   if (email.value === '') {
     alert('Поле email повинно бути заповнено!');
+    return;
   }
   if (password.value === '') {
     alert('Поле password повинно бути заповнено!');
+    return;
   }
 
   const objForm = {
